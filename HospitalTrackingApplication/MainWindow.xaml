@@ -1,0 +1,39 @@
+﻿<Window x:Class="HospitalTrackingApplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HospitalTrackingApplication"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="1080" Width="1920">
+    <Grid>
+        <StackPanel VerticalAlignment="Center">
+            <Canvas Panel.ZIndex="1">
+                <StackPanel x:Name="ckud17" Width="78" Height="20" HorizontalAlignment="Left" VerticalAlignment="Center" Orientation="Horizontal" Canvas.Top="10" Canvas.Left="7"></StackPanel>
+                <StackPanel x:Name="ckud18" Width="71" Height="20" HorizontalAlignment="Left" VerticalAlignment="Center" Orientation="Horizontal" Canvas.Left="97" Canvas.Top="10"/>
+                <StackPanel x:Name="ckud19" Width="153" Height="20" HorizontalAlignment="Left" VerticalAlignment="Center" Orientation="Horizontal" Canvas.Left="182" Canvas.Top="10"/>
+                <StackPanel x:Name="ckud20" Width="73" Height="20" HorizontalAlignment="Left" VerticalAlignment="Center" Orientation="Horizontal" Canvas.Left="347" Canvas.Top="10"/>
+                <StackPanel x:Name="ckud21" Width="228" Height="20" HorizontalAlignment="Left" VerticalAlignment="Center" Orientation="Horizontal" Canvas.Left="432" Canvas.Top="10"/>
+                <StackPanel x:Name="ckud22" Width="76" Height="20" HorizontalAlignment="Left" VerticalAlignment="Center" Orientation="Horizontal" Canvas.Left="671" Canvas.Top="10"/>
+                <StackPanel x:Name="ckud0" Width="131" Height="20" HorizontalAlignment="Left" VerticalAlignment="Center" Orientation="Horizontal" Canvas.Left="844" Canvas.Top="10"/>
+                <StackPanel x:Name="ckud1" Width="154" Height="20" HorizontalAlignment="Left" VerticalAlignment="Center" Orientation="Horizontal" Canvas.Left="1121" Canvas.Top="10"/>
+                <StackPanel x:Name="ckud2" Width="77" Height="20" HorizontalAlignment="Left" VerticalAlignment="Center" Orientation="Horizontal"  Canvas.Left="1285" Canvas.Top="10"/>
+                <StackPanel x:Name="ckud3" Width="75" Height="20" HorizontalAlignment="Left" VerticalAlignment="Center" Orientation="Horizontal" Canvas.Left="1373" Canvas.Top="10"/>
+                <StackPanel x:Name="ckud4" Width="123" Height="20" HorizontalAlignment="Left" VerticalAlignment="Center" Orientation="Horizontal" Canvas.Left="1460" Canvas.Top="10"/>
+                <StackPanel x:Name="ckud5" Width="137" Height="20" HorizontalAlignment="Left" VerticalAlignment="Center" Orientation="Horizontal" Canvas.Left="1593" Canvas.Top="10"/>
+                <StackPanel x:Name="ckud6" Width="172" Height="20" HorizontalAlignment="Left" VerticalAlignment="Center" Orientation="Horizontal" Canvas.Left="1740" Canvas.Top="10"/>
+                <StackPanel x:Name="ckud16" Width="140" Height="15" HorizontalAlignment="Center" VerticalAlignment="Top" Orientation="Horizontal" Canvas.Top="640" Canvas.Left="10"/>
+                <StackPanel x:Name="ckud15" Width="255" Height="15" HorizontalAlignment="Left" VerticalAlignment="Center"  Orientation="Horizontal" Canvas.Top="640" Canvas.Left="160"/>
+                <StackPanel x:Name="ckud14" Width="330" Height="15" HorizontalAlignment="Left" VerticalAlignment="Center" Orientation="Horizontal" Canvas.Top="640" Canvas.Left="420"/>
+                <StackPanel x:Name="ckud13" Width="80" Height="15" HorizontalAlignment="Left" VerticalAlignment="Center" Orientation="Horizontal" Canvas.Top="640" Canvas.Left="755"/>
+                <StackPanel x:Name="ckud12" Width="225" Height="15" HorizontalAlignment="Left" VerticalAlignment="Center" Orientation="Horizontal" Canvas.Top="640" Canvas.Left="840"/>
+                <StackPanel x:Name="ckud11" Width="133" Height="15" HorizontalAlignment="Left" VerticalAlignment="Center" Orientation="Horizontal" Canvas.Top="640" Canvas.Left="1065"/>
+                <StackPanel x:Name="ckud10" Width="102" Height="15" HorizontalAlignment="Left" VerticalAlignment="Center" Orientation="Horizontal" Canvas.Top="640" Canvas.Left="1198"/>
+                <StackPanel x:Name="ckud9" Width="135" Height="15" HorizontalAlignment="Left" VerticalAlignment="Center" Orientation="Horizontal" Canvas.Top="640" Canvas.Left="1300"/>
+                <StackPanel x:Name="ckud8" Width="240" Height="15" HorizontalAlignment="Left" VerticalAlignment="Center" Orientation="Horizontal" Canvas.Top="640" Canvas.Left="1435"/>
+                <StackPanel x:Name="ckud7" Width="240" Height="15" HorizontalAlignment="Left" VerticalAlignment="Center" Orientation="Horizontal" Canvas.Top="640" Canvas.Left="1675"/>
+            </Canvas>
+            <Image Source=".\Resorces\layout.png" Panel.ZIndex="0" Width="1920"></Image>
+        </StackPanel>
+    </Grid>
+</Window>
